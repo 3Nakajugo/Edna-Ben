@@ -8,6 +8,11 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+   <!-- <img src="img1.jpg"> -->
+  
+    
+    <div class='container'>
+
     <h1 id="title">Survey Form</h1>
     <p id="description">Form that picks event feedback</p>
     <form action="" id="survey-form">
@@ -21,25 +26,24 @@
         <option value="Female" id="dropdown">Female</option>
         <option value="Male" id="dropdown">Male</option>
       </select>
+
+      <div> 
       <input type="radio" id="male" name="gender" value="male" />
       <label for="male">Male</label><br />
       <input type="radio" id="female" name="gender" value="female" />
       <label for="female">Female</label><br />
       <input type="radio" id="other" name="gender" value="other" />
       <label for="other">Other</label>
+    </div>
 
-      <input
-        type="checkbox"
-        checked
-        id="other"
-        name="choice"
-        value="level one"
-      />
+     <div>
+      <input type="checkbox" checked id="other" name="choice" value="level one"/>
       <label for="other">level one</label>
       <input type="checkbox" id="other" name="choice" value="level one" />
       <label for="other">level one</label>
       <input type="checkbox" id="other" name="choice" value="other" />
       <label for="other">Other</label>
+    </div>
 
       <textarea
         name=""
@@ -51,7 +55,9 @@
 
       <input type="submit" id="submit" />
     </form>
-    <p>Hello World, we are software developers!</p>
+    </div>
+    {% comment %} <p>Hello World, we are 
+    software developers!</p> {% endcomment %}
 
     <!--
 
